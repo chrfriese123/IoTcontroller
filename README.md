@@ -52,7 +52,7 @@ The layout is defined by the used wall switch program. Two screw holes need to b
 To reduce the risk, high voltage line are placed on the backside, covered by components. Low voltage and signal lines are placed as much as possible of the frontside. 
 
 ### Firmware
-To operate the ESP system, the open-source firmware Tasmota is used. For the majority of the controllers the standard firmware is suitable. Although some cases need a dedicated version to enable operation of RGB LED stripes, read specific I2C sensors or read the power & water meters.
+To operate the ESP system, the open-source firmware Tasmota is used (https://tasmota.github.io/docs/). For the majority of the controllers the standard firmware is suitable. Although some cases need a dedicated version to enable operation of RGB LED stripes, read specific I2C sensors or read the power & water meters.
 
 ### Preparation
 The bare PCB is produced by a Chinese manufacturer. Assembly is done manually, first the SMD components and the ESP8266 module. Then a system check and programming is performed. Finally, the through hole components are soldered.

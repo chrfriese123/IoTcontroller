@@ -39,6 +39,18 @@ To reduce the risk, high voltage line are placed on the backside, covered by com
 
 ![Backside](images/backside.png)![Frontside](images/frontside.png)
 
+### ESP8266 contoller
+As controller an ESP8266 module was used to operate up to two relays, enable two external switches as input and a I2C communication to external devices.
+
+For the operation and programming of the ESP8266 certain pins need to be pulled high. Two miniaturized switches are included to reset the device or get into programming mode.
+
+### Relays
+Two relay channels are implemented to allow an operation of one cover or two lights with the system. As option, an LED can be activated to indicate the state of the relay.
+
+### Layout
+The layout is defined by the used wall switch program. Two screw holes need to be considered, front size has a reduced size and limited height.
+To reduce the risk, high voltage line are placed on the backside, covered by components. Low voltage and signal lines are placed as much as possible of the frontside. 
+
 ### Firmware
 To operate the ESP system, the open-source firmware Tasmota is used. For the majority of the controllers the standard firmware is suitable. Although some cases need a dedicated version to enable operation of RGB LED stripes, read specific I2C sensors or read the power & water meters.
 
